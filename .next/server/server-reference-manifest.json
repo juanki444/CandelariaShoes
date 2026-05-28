@@ -1,44 +1,226 @@
 {
   "node": {
-    "2e81baaf8336283e07fc38a440be20b5c1825f0d": {
+    "00d779d255cdb322eef9a1f79401fd27fbe8a26485": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!",
-        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!"
+        "app/admin/page": {
+          "moduleId": 24503,
+          "async": false,
+          "exportedName": "getProducts",
+          "filename": "app/actions/products.ts"
+        },
+        "app/admin/products/page": {
+          "moduleId": 93975,
+          "async": false,
+          "exportedName": "getProducts",
+          "filename": "app/actions/products.ts"
+        },
+        "app/page": {
+          "moduleId": 51999,
+          "async": false,
+          "exportedName": "getProducts",
+          "filename": "app/actions/products.ts"
+        },
+        "app/shop/[id]/page": {
+          "moduleId": 95929,
+          "async": false,
+          "exportedName": "getProducts",
+          "filename": "app/actions/products.ts"
+        },
+        "app/shop/page": {
+          "moduleId": 89221,
+          "async": false,
+          "exportedName": "getProducts",
+          "filename": "app/actions/products.ts"
+        },
+        "app/wishlist/page": {
+          "moduleId": 62841,
+          "async": false,
+          "exportedName": "getProducts",
+          "filename": "app/actions/products.ts"
+        }
       },
-      "layer": {
-        "app/page": "action-browser",
-        "app/admin/page": "action-browser"
-      }
+      "filename": "app/actions/products.ts",
+      "exportedName": "getProducts"
     },
-    "5f0404a0c2e2a5d717487ecb81dca9397afe7f55": {
+    "409a1e85aec655d09171b81cc968c73fb6e462476e": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!",
-        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!"
+        "app/admin/page": {
+          "moduleId": 24503,
+          "async": false,
+          "exportedName": "createProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/admin/products/page": {
+          "moduleId": 93975,
+          "async": false,
+          "exportedName": "createProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/page": {
+          "moduleId": 51999,
+          "async": false,
+          "exportedName": "createProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/shop/[id]/page": {
+          "moduleId": 95929,
+          "async": false,
+          "exportedName": "createProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/shop/page": {
+          "moduleId": 89221,
+          "async": false,
+          "exportedName": "createProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/wishlist/page": {
+          "moduleId": 62841,
+          "async": false,
+          "exportedName": "createProduct",
+          "filename": "app/actions/products.ts"
+        }
       },
-      "layer": {
-        "app/page": "action-browser",
-        "app/admin/page": "action-browser"
-      }
+      "filename": "app/actions/products.ts",
+      "exportedName": "createProduct"
     },
-    "944674c8633ef7a36e58ebf9fa80dbf9ae8706a6": {
+    "6037247179f91f84bc05e945574f8dc94cf9e53f0d": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!",
-        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!"
+        "app/admin/page": {
+          "moduleId": 24503,
+          "async": false,
+          "exportedName": "updateProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/admin/products/page": {
+          "moduleId": 93975,
+          "async": false,
+          "exportedName": "updateProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/page": {
+          "moduleId": 51999,
+          "async": false,
+          "exportedName": "updateProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/shop/[id]/page": {
+          "moduleId": 95929,
+          "async": false,
+          "exportedName": "updateProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/shop/page": {
+          "moduleId": 89221,
+          "async": false,
+          "exportedName": "updateProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/wishlist/page": {
+          "moduleId": 62841,
+          "async": false,
+          "exportedName": "updateProduct",
+          "filename": "app/actions/products.ts"
+        }
       },
-      "layer": {
-        "app/page": "action-browser",
-        "app/admin/page": "action-browser"
-      }
+      "filename": "app/actions/products.ts",
+      "exportedName": "updateProduct"
     },
-    "ec3afd7e5af230abf197e9283934357d85fe7001": {
+    "400fd90ad49abb2531f18c8f6fe75f2a1d75896854": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!",
-        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!"
+        "app/admin/page": {
+          "moduleId": 24503,
+          "async": false,
+          "exportedName": "deleteProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/admin/products/page": {
+          "moduleId": 93975,
+          "async": false,
+          "exportedName": "deleteProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/page": {
+          "moduleId": 51999,
+          "async": false,
+          "exportedName": "deleteProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/shop/[id]/page": {
+          "moduleId": 95929,
+          "async": false,
+          "exportedName": "deleteProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/shop/page": {
+          "moduleId": 89221,
+          "async": false,
+          "exportedName": "deleteProduct",
+          "filename": "app/actions/products.ts"
+        },
+        "app/wishlist/page": {
+          "moduleId": 62841,
+          "async": false,
+          "exportedName": "deleteProduct",
+          "filename": "app/actions/products.ts"
+        }
       },
-      "layer": {
-        "app/page": "action-browser",
-        "app/admin/page": "action-browser"
-      }
+      "filename": "app/actions/products.ts",
+      "exportedName": "deleteProduct"
+    },
+    "006bb9de0471e5f37ec13ad607ba0d38d5e48559f6": {
+      "workers": {
+        "app/admin/orders/page": {
+          "moduleId": 74136,
+          "async": false,
+          "exportedName": "getOrders",
+          "filename": "app/actions/orders.ts"
+        }
+      },
+      "filename": "app/actions/orders.ts",
+      "exportedName": "getOrders"
+    },
+    "400ba52670e7273a6d36d5e233494c2d21448d3c7b": {
+      "workers": {
+        "app/admin/orders/page": {
+          "moduleId": 74136,
+          "async": false,
+          "exportedName": "createOrder",
+          "filename": "app/actions/orders.ts"
+        },
+        "app/checkout/page": {
+          "moduleId": 20488,
+          "async": false,
+          "exportedName": "createOrder",
+          "filename": "app/actions/orders.ts"
+        }
+      },
+      "filename": "app/actions/orders.ts",
+      "exportedName": "createOrder"
+    },
+    "603bca00d20ff7a6e411ba87a08c4205a49c33a75a": {
+      "workers": {
+        "app/admin/orders/page": {
+          "moduleId": 74136,
+          "async": false,
+          "exportedName": "updatePaymentProof",
+          "filename": "app/actions/orders.ts"
+        }
+      },
+      "filename": "app/actions/orders.ts",
+      "exportedName": "updatePaymentProof"
+    },
+    "60505d5191bcdbac608ca4befb3a1da589d1379773": {
+      "workers": {
+        "app/admin/orders/page": {
+          "moduleId": 74136,
+          "async": false,
+          "exportedName": "updateOrderStatus",
+          "filename": "app/actions/orders.ts"
+        }
+      },
+      "filename": "app/actions/orders.ts",
+      "exportedName": "updateOrderStatus"
     }
   },
   "edge": {},
