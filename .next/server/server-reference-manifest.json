@@ -1,0 +1,46 @@
+{
+  "node": {
+    "2e81baaf8336283e07fc38a440be20b5c1825f0d": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/admin/page": "action-browser"
+      }
+    },
+    "5f0404a0c2e2a5d717487ecb81dca9397afe7f55": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/admin/page": "action-browser"
+      }
+    },
+    "944674c8633ef7a36e58ebf9fa80dbf9ae8706a6": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/admin/page": "action-browser"
+      }
+    },
+    "ec3afd7e5af230abf197e9283934357d85fe7001": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fgoez%2FDescargas%2FCandelariaShoes%2Fapp%2Factions%2Fproducts.ts%22%2C%5B%22createProduct%22%2C%22updateProduct%22%2C%22getProducts%22%2C%22deleteProduct%22%5D%5D%5D&encryptionKey=3%2F762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU%3D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/admin/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "3/762OvNMPGAtcoNFN61GvalfbMQCc7XOxBUXoS7dbU="
+}
