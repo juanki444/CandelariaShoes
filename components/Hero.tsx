@@ -1,11 +1,19 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div 
-      className="relative w-full h-[100dvh] flex flex-col items-center justify-end overflow-hidden pb-12 sm:pb-16 md:pb-24 lg:bg-fixed bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/assets/fondo-final.jpg')" }}
-    >
+    <div className="relative w-full h-[100dvh] flex flex-col items-center justify-end overflow-hidden pb-12 sm:pb-16 md:pb-24">
+      {/* Background Image using next/image for better responsiveness and performance */}
+      <Image
+        src="/assets/fondo-final.jpg"
+        alt="Candelaria Shoes Collection"
+        fill
+        priority
+        className="object-cover object-center lg:fixed z-0"
+        sizes="100vw"
+      />
+
       {/* Soft, sophisticated gradient: darker at bottom to ensure button pops and protects the navbar at the top */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-black/40 pointer-events-none z-0" />
 
