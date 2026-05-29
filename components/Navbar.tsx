@@ -62,7 +62,7 @@ export default function Navbar() {
           </div>
 
           {/* Logo - Center */}
-          <Link href="/" className="flex flex-col items-center justify-center md:flex-none">
+          <Link href="/" className="hidden md:flex flex-col items-center justify-center md:flex-none">
              <div className="relative w-36 h-14 sm:w-48 sm:h-20 md:w-64 md:h-24 flex items-center justify-center overflow-hidden transition-all duration-500">
                <img 
                  src="/assets/logo-prueba.jpg" 
