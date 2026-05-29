@@ -13,7 +13,14 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div className="max-w-md">
-            <h3 className="font-script text-6xl mb-6 text-primary">Candelaria</h3>
+            <div className="w-64 h-24 md:w-72 md:h-28 relative mb-8">
+              <img 
+                src="/assets/logo-prueba.jpg" 
+                alt="Candelaria Shoes" 
+                className="object-contain object-left w-full h-full"
+                style={{ filter: 'brightness(0)' }}
+              />
+            </div>
             <p className="text-foreground/60 font-light leading-relaxed mb-8">
               Diseño colombiano con alma tropical. Creamos calzado premium que abraza tus pasos, combinando confort absoluto con una estética atemporal.
             </p>

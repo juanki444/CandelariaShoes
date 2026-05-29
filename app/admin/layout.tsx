@@ -49,7 +49,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     <div className="min-h-screen bg-[#FAF6F0] flex relative z-[200]">
       {/* Mobile Header */}
       <div className="lg:hidden fixed top-0 w-full bg-white border-b border-primary/10 px-6 py-4 flex items-center justify-between z-20">
-         <span className="font-script text-3xl text-primary">Candelaria</span>
+         <div className="w-36 h-12 relative">
+           <img src="/assets/logo-prueba.jpg" alt="Candelaria Shoes" className="object-contain object-left w-full h-full" style={{ filter: 'brightness(0)' }} />
+         </div>
          <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="p-2 text-foreground/60 hover:text-primary transition-colors">
            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
          </button>
@@ -66,10 +68,14 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       {/* Sidebar */}
       <aside className={`w-72 bg-white border-r border-primary/10 flex flex-col fixed h-full z-30 shadow-[5px_0_40px_rgba(0,0,0,0.03)] transition-transform duration-300 ease-in-out ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0`}>
         <div className="p-10 flex items-center justify-center hidden lg:flex">
-          <span className="font-script text-5xl text-primary mt-2">Candelaria</span>
+          <div className="w-56 h-20 relative mt-2">
+            <img src="/assets/logo-prueba.jpg" alt="Candelaria Shoes" className="object-contain object-center w-full h-full" style={{ filter: 'brightness(0)' }} />
+          </div>
         </div>
         <div className="lg:hidden flex justify-between items-center p-6 border-b border-gray-100">
-           <span className="font-script text-4xl text-primary">Candelaria</span>
+           <div className="w-48 h-14 relative">
+             <img src="/assets/logo-prueba.jpg" alt="Candelaria Shoes" className="object-contain object-left w-full h-full" style={{ filter: 'brightness(0)' }} />
+           </div>
            <button onClick={() => setMobileMenuOpen(false)}><X size={24} className="text-foreground/40" /></button>
         </div>
         

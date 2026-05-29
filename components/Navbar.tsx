@@ -45,12 +45,14 @@ export default function Navbar() {
   return (
     <>
       <nav className={`fixed w-full z-50 transition-all duration-500 border-b ${isScrolled ? 'bg-white/95 backdrop-blur-md border-primary/10 py-4 shadow-sm' : 'bg-gradient-to-b from-black/60 to-transparent border-transparent py-6'}`}>
-        <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
+        <div className="container mx-auto px-4 sm:px-6 md:px-12 flex items-center justify-between">
           
           {/* Mobile Menu Button */}
-          <button className={`md:hidden transition-colors ${textColor} ${hoverColor}`} onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-             {mobileMenuOpen ? <X size={28} strokeWidth={1.5} /> : <Menu size={28} strokeWidth={1.5} />}
-          </button>
+          <div className="flex-1 md:hidden flex justify-start">
+            <button className={`transition-colors ${textColor} ${hoverColor}`} onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+               {mobileMenuOpen ? <X size={26} strokeWidth={1.5} /> : <Menu size={26} strokeWidth={1.5} />}
+            </button>
+          </div>
 
           {/* Desktop Menu - Left */}
           <div className="hidden md:flex items-center gap-10 flex-1">
@@ -60,13 +62,17 @@ export default function Navbar() {
           </div>
 
           {/* Logo - Center */}
-          <Link href="/" className="flex flex-col items-center justify-center flex-1 md:flex-none">
-             <span className={`font-script text-4xl md:text-[2.75rem] tracking-normal leading-none transition-colors duration-500 ${logoColor}`}>
-               Candelaria
-             </span>
-             <span className={`text-[9px] uppercase tracking-[0.3em] mt-1 hidden md:block transition-colors duration-500 ${subtextColor}`}>
-               Zapatos & Estilo
-             </span>
+          <Link href="/" className="flex flex-col items-center justify-center md:flex-none">
+             <div className="relative w-36 h-14 sm:w-48 sm:h-20 md:w-64 md:h-24 flex items-center justify-center overflow-hidden transition-all duration-500">
+               <img 
+                 src="/assets/logo-prueba.jpg" 
+                 alt="Candelaria Shoes" 
+                 className="object-contain w-full h-full transition-all duration-500"
+                 style={{ 
+                   filter: isScrolled ? 'brightness(0)' : 'none'
+                 }}
+               />
+             </div>
           </Link>
 
           {/* Icons - Right */}
@@ -101,8 +107,8 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu Dropdown */}
-        <div className={`md:hidden absolute top-full left-0 w-full bg-white border-b border-primary/10 shadow-xl overflow-hidden transition-all duration-300 ${mobileMenuOpen ? 'max-h-[400px] opacity-100' : 'max-h-0 opacity-0'}`}>
-          <div className="p-8 flex flex-col gap-6">
+        <div className={`md:hidden absolute top-full left-0 w-full bg-white border-b border-primary/10 shadow-xl overflow-hidden transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'max-h-[calc(100svh-70px)] opacity-100 overflow-y-auto' : 'max-h-0 opacity-0'}`}>
+          <div className="p-6 pb-[max(2rem,env(safe-area-inset-bottom))] flex flex-col gap-6">
              <Link href="/" onClick={() => setMobileMenuOpen(false)} className="text-3xl font-serif text-foreground hover:text-primary transition-colors">Inicio</Link>
              <Link href="/shop" onClick={() => setMobileMenuOpen(false)} className="text-3xl font-serif text-foreground hover:text-primary transition-colors">Tienda</Link>
              <Link href="#footer" onClick={() => setMobileMenuOpen(false)} className="text-3xl font-serif text-foreground hover:text-primary transition-colors">Nosotros</Link>
@@ -121,9 +127,9 @@ export default function Navbar() {
       </nav>
 
       {/* Full screen elegant search overlay */}
-      <div className={`fixed inset-0 z-[100] bg-white/95 backdrop-blur-xl transition-all duration-500 flex flex-col items-center justify-center ${searchOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
-        <button onClick={() => setSearchOpen(false)} className="absolute top-10 right-10 text-foreground/40 hover:text-primary transition-colors">
-          <X size={36} strokeWidth={1} />
+      <div className={`fixed inset-0 z-[100] bg-white/95 backdrop-blur-xl transition-all duration-500 flex flex-col items-center justify-center pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] ${searchOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+        <button onClick={() => setSearchOpen(false)} className="absolute top-[max(1.5rem,env(safe-area-inset-top))] right-6 md:right-10 text-foreground/40 hover:text-primary transition-colors">
+          <X size={32} strokeWidth={1} />
         </button>
         <div className="w-full max-w-4xl px-6">
           <form onSubmit={handleSearchSubmit} className="relative w-full">
