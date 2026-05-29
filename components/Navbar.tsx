@@ -80,7 +80,7 @@ export default function Navbar() {
              <button onClick={() => setSearchOpen(true)} className={`transition-colors hidden sm:block ${textColor} ${hoverColor}`}>
                 <Search size={22} strokeWidth={1.5} />
              </button>
-             <Link href="/admin" className={`transition-colors hidden sm:block ${textColor} ${hoverColor}`}>
+             <Link href="/admin" className={`transition-colors ${textColor} ${hoverColor}`}>
                 <User size={22} strokeWidth={1.5} />
              </Link>
              <Link href="/wishlist" className={`relative transition-colors flex items-center gap-2 group hidden sm:flex ${textColor} ${hoverColor}`} aria-label="Lista de deseos">
