@@ -197,13 +197,13 @@ export default function CheckoutPage() {
                            <div className="bg-white p-4 rounded-lg border border-gray-100 shadow-sm text-sm space-y-3">
                              <div className="flex justify-between items-center">
                                <span className="text-foreground/60 text-xs uppercase tracking-wider">Titular</span>
-                               <span className="font-medium">Héctor Zenón Vergara Fuentes</span>
+                               <span className="font-medium">Kelly Vergara</span>
                              </div>
                              <div className="flex justify-between items-center">
                                <span className="text-foreground/60 text-xs uppercase tracking-wider">Cuenta Bancolombia</span>
                                <div className="flex items-center gap-2">
-                                 <span className="font-medium">39820732166</span>
-                                 <button type="button" onClick={() => copyToClipboard('39820732166')} className="p-1.5 bg-gray-100 hover:bg-gray-200 rounded text-foreground/60 transition-colors" title="Copiar">
+                                 <span className="font-medium">506 000884 05</span>
+                                 <button type="button" onClick={() => copyToClipboard('506 000884 05')} className="p-1.5 bg-gray-100 hover:bg-gray-200 rounded text-foreground/60 transition-colors" title="Copiar">
                                    <Copy size={14} />
                                  </button>
                                </div>

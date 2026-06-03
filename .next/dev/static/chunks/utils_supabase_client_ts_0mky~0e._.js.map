@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/goez/Descargas/CandelariaShoes/utils/supabase/client.ts"],"sourcesContent":["import { createBrowserClient } from '@supabase/ssr'\n\nexport function createClient() {\n  return createBrowserClient(\n    process.env.NEXT_PUBLIC_SUPABASE_URL!,\n    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!\n  )\n}\n"],"names":["createClient"],"mappings":";;;;AAII;AAJJ;;AAEO,SAASA;IACd,OAAO,IAAA,oMAAmB;AAI5B"}}]
-}
